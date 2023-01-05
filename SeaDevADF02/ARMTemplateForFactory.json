@@ -217,7 +217,7 @@
 				"type": "HttpServer",
 				"typeProperties": {
 					"url": "[parameters('HttpServer1_properties_typeProperties_url')]",
-					"enableServerCertificateValidation": true,
+					"enableServerCertificateValidation": false,
 					"authenticationType": "Anonymous"
 				}
 			},
@@ -262,7 +262,7 @@
 				"type": "HttpServer",
 				"typeProperties": {
 					"url": "[parameters('myhttp02_properties_typeProperties_url')]",
-					"enableServerCertificateValidation": true,
+					"enableServerCertificateValidation": false,
 					"authenticationType": "Anonymous"
 				}
 			},
@@ -277,7 +277,7 @@
 				"type": "HttpServer",
 				"typeProperties": {
 					"url": "[parameters('myhttp03_properties_typeProperties_url')]",
-					"enableServerCertificateValidation": false,
+					"enableServerCertificateValidation": true,
 					"authenticationType": "Anonymous"
 				}
 			},
