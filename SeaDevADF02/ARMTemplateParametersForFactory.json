@@ -11,10 +11,16 @@
 		"HttpServer1_properties_typeProperties_url": {
 			"value": "https://ir-example.mir.prod.reco.microsoft.com/Reco/V1.0/New?modeling=adw&Count=5"
 		},
+		"HttpServer2_properties_typeProperties_url": {
+			"value": "https://ir-example.mir.prod.reco.microsoft.com/Reco/V1.0/New?modeling=adw&Count=5"
+		},
 		"myhttp01_properties_typeProperties_url": {
 			"value": "https://ir-example.mir.prod.reco.microsoft.com/Reco/V1.0/New?modeling=adw&Count=5"
 		},
 		"myhttp02_properties_typeProperties_url": {
+			"value": "https://ir-example.mir.prod.reco.microsoft.com/Reco/V1.0/New?modeling=adw&Count=5"
+		},
+		"myhttp03_properties_typeProperties_url": {
 			"value": "https://ir-example.mir.prod.reco.microsoft.com/Reco/V1.0/New?modeling=adw&Count=5"
 		},
 		"integrationRuntime1test_properties_typeProperties_linkedInfo_resourceId": {

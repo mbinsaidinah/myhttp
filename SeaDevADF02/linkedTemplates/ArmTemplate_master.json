@@ -15,11 +15,19 @@
 			"type": "string",
 			"defaultValue": "https://ir-example.mir.prod.reco.microsoft.com/Reco/V1.0/New?modeling=adw&Count=5"
 		},
+		"HttpServer2_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://ir-example.mir.prod.reco.microsoft.com/Reco/V1.0/New?modeling=adw&Count=5"
+		},
 		"myhttp01_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://ir-example.mir.prod.reco.microsoft.com/Reco/V1.0/New?modeling=adw&Count=5"
 		},
 		"myhttp02_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://ir-example.mir.prod.reco.microsoft.com/Reco/V1.0/New?modeling=adw&Count=5"
+		},
+		"myhttp03_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://ir-example.mir.prod.reco.microsoft.com/Reco/V1.0/New?modeling=adw&Count=5"
 		},
@@ -60,11 +68,17 @@
 					"HttpServer1_properties_typeProperties_url": {
 						"value": "[parameters('HttpServer1_properties_typeProperties_url')]"
 					},
+					"HttpServer2_properties_typeProperties_url": {
+						"value": "[parameters('HttpServer2_properties_typeProperties_url')]"
+					},
 					"myhttp01_properties_typeProperties_url": {
 						"value": "[parameters('myhttp01_properties_typeProperties_url')]"
 					},
 					"myhttp02_properties_typeProperties_url": {
 						"value": "[parameters('myhttp02_properties_typeProperties_url')]"
+					},
+					"myhttp03_properties_typeProperties_url": {
+						"value": "[parameters('myhttp03_properties_typeProperties_url')]"
 					},
 					"integrationRuntime1test_properties_typeProperties_linkedInfo_resourceId": {
 						"value": "[parameters('integrationRuntime1test_properties_typeProperties_linkedInfo_resourceId')]"
