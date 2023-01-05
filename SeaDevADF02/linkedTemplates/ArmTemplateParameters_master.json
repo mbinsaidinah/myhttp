@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "SeaDevADF02"
+		},
+		"AzureSqlDatabase1_connectionString": {
+			"value": ""
+		},
+		"HttpServer1_properties_typeProperties_url": {
+			"value": "https://ir-example.mir.prod.reco.microsoft.com/Reco/V1.0/New?modeling=adw&Count=5"
+		},
+		"myhttp01_properties_typeProperties_url": {
+			"value": "https://ir-example.mir.prod.reco.microsoft.com/Reco/V1.0/New?modeling=adw&Count=5"
+		},
+		"myhttp02_properties_typeProperties_url": {
+			"value": "https://ir-example.mir.prod.reco.microsoft.com/Reco/V1.0/New?modeling=adw&Count=5"
+		},
+		"integrationRuntime1test_properties_typeProperties_linkedInfo_resourceId": {
+			"value": "/subscriptions/887c8aa5-917a-430d-9235-90d8e4950357/resourcegroups/MySelfTraingRG/providers/Microsoft.DataFactory/factories/SelfADF01/integrationruntimes/MSSQLSelfHostedIR"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
