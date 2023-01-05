@@ -1,0 +1,9 @@
+{
+	"name": "SeaDevADF02",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a349305f-719f-4c56-83f3-ed5eaa8c6f23",
+		"tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47"
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"name": "integrationRuntime1test",
+	"properties": {
+		"type": "SelfHosted",
+		"typeProperties": {
+			"linkedInfo": {
+				"resourceId": "/subscriptions/887c8aa5-917a-430d-9235-90d8e4950357/resourcegroups/MySelfTraingRG/providers/Microsoft.DataFactory/factories/SelfADF01/integrationruntimes/MSSQLSelfHostedIR",
+				"authorizationType": "Rbac"
+			}
+		}
+	}
+}
